@@ -23,7 +23,7 @@ RUN apt-get update -q
 RUN apt-get install -qy python-crypto python-pycurl tesseract-ocr git rhino unrar
 
 # Checkout pyload sources
-RUN git clone https://github.com/pyload/pyload.git /opt/pyload
+RUN git clone https://github.com/naisspas/pyload.git /opt/pyload
 
 # Add PyLoad Config Dir
 ADD config/ /tmp/pyload-config/
